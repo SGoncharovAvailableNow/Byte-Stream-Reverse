@@ -12,5 +12,7 @@ internal class Program
 
         reverse.ShowArray(reverse.ReverseByte(bytes));
 
+        reverse.ShowSecondArray(reverse.ReverseByteWithChunk(bytes));
+
     }
 }
